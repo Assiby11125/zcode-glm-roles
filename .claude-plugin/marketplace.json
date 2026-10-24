@@ -1,0 +1,20 @@
+{
+  "name": "assiby-plugins",
+  "plugins": [
+    {
+      "name": "glm-roles",
+      "source": "./glm-roles",
+      "version": "0.2.0",
+      "description": "Role-based model routing for GLM: deep tasks go to GLM-5.3, quick tasks to GLM-5.3-Flash, via role subagents, commands and an auto-routing skill.",
+      "displayName": "GLM Roles",
+      "displayName_i18n": {
+        "zh-CN": "GLM 角色分流"
+      },
+      "description_i18n": {
+        "en": "Route subtasks by role: deep tasks to GLM-5.3, quick tasks to GLM-5.3-Flash. Models are freely assignable across plans.",
+        "zh-CN": "把子任务按角色分流：深度任务走 GLM-5.3，轻量任务走 GLM-5.3-Flash；角色模型可跨套餐自由指派。"
+      },
+      "category": "developer-tools"
+    }
+  ]
+}
